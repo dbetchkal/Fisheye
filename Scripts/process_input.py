@@ -2,7 +2,7 @@
 datanight = 'PNGL_20201117A'
 lat, long = 40.816692, -104.601119 #observing location [degree]
 camera = 'Fish1'
-processor = 'L_Hung'
+processor = 'D_Betchkal'
 
 #Folders
 calibration = '../Calibration/'
@@ -16,9 +16,9 @@ flatb     = calibration + ''
 mask      = calibration + 'Sigma_3.5_Master_Flat_mask.fit'
 
 #Measure zeropoint, extinction coefficient, and center on the reference image?
-measure_reference = False				#[True/False] Solve the reference image?
-reference = 'img-003-sky-V.fit'			#Reference image
-apikey = 'cllxijkpvxsibace' 			#Astrometry API key
+measure_reference = False				#[True/False]Slove the reference image?
+reference = 'img-005-sky-V.fit'			#Reference image
+apikey = 'nxuklhdpefjgnrug' 			#Astrometry API key
 
 #Select zeropoint to use
 use_default_zeropoint = True	#[True/False] If False, use measured zeropoint
